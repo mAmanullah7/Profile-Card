@@ -1,0 +1,79 @@
+/* Google fonts - poppins  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.Profile-Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0,1);
+
+}
+
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+
+    /* display: flex; /* Added for centering */
+    /* justify-content: center; Center horizontally */
+    /* align-items: center; Center vertically */
+} 
+
+.image .profile-img{
+    height: 144px; /* Adjusted to fit within the padding */
+    width: 144px; /* Adjusted to fit within the padding */
+    object-fit: cover;
+    border-radius: 100px;
+    border: 3px solid #fff;
+}
+
+.Profile-Card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+
+}
+
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500;
+
+
+}
+
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+
+
+}
+
